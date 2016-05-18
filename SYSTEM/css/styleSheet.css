@@ -1,0 +1,50 @@
+body{
+    background: url(../images/fundo3.jpg) no-repeat;
+    text-align: center;
+    background-position: center;        
+}
+
+#page{
+    text-align: center;
+    background-position: center;        
+}
+
+#title{
+    width: auto;
+    font-family: cursive;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 80px;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 90px;
+}
+
+#options{
+   
+    background-position: center;
+    text-align: center;
+    padding-left: 35%;
+}
+
+
+.tp{
+    display: block;
+    font-size: 35px;
+    color: aliceblue;
+    border-bottom-color: blueviolet; 
+    width: 400px;
+    
+    
+    
+}
+
+a:link{
+
+    
+}
+
+
