@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html >
+  <head>
     <meta charset="UTF-8">
-    <title>LOGIN - EasyPhoto</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/login.css">  
+    <title>EasyPhoto</title>
+  </head>
+  <body>
+   <br><br><br>
     <h1>EasyPhoto</h1>   
-    <form action="">
-        <fieldset>
-            <legend>LOGIN</legend>
-            <label for="">Login</label>
-            <input type="text" name="login">
-            <label for="">Senha</label>
-            <input type="text" name="password">
-            <a href="main.html"><input type="button" value="OK"></a>
-            <a href="index.html"><input type="button" value="CANCELAR"></a>
-        </fieldset>
-    </form>
-</body>
+    <div class="login">
+      <header class="login-header"><span class="text">LOGIN</span><span class="loader"></span></header>
+      <form class="login-form" action="main.html">
+        <input type="text" placeholder="Usuário" class="login-input"/>
+        <input type="password" placeholder="Senha" class="login-input"/>
+        <button type="submit" class="login-btn">Entrar</button>
+      </form>
+    </div>
+    <a href="index.html"><img src="images/botaoVoltar.jpg" alt=""></a>
+  </body>
 </html>
+
+
