@@ -15,36 +15,25 @@
     <div class="container-fluid top">
         <div class="row">
             <div class="col-sm-3">
-                <h1 class="text-left">Clientes</h1>
-            </div>
-
-            <div class="col-sm-6">
-                <div class="input-group h2">
-                    <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar Clientes">
-                    <span class="input-group-btn">
-					    <button class="btn btn-primary" type="submit">
-						    <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    </span>
-                </div>
+                <h1 class="text-left">Dados do Cliente</h1>
             </div>
 
             <div class="col-sm-3">
-                <a href="main.html" class="btn btn-primary pull-right h2">Sair</a>
-                <a href="cadastro-cliente.html" class="btn btn-primary pull-right h2">Cadastrar Novo Cliente</a>
+                <a href="clientes-cadastrados.html" class="btn btn-primary pull-right h2">Voltar</a>
             </div>
         </div>
     </div>
 
     <div id="list" class="row">
         <div class="table-responsive col-md-12">
+            
             <table class="table table-striped" cellspacing="0" cellpadding="0" id="tbCliente">
 
             </table>
         </div>
     </div>
 
-    <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
+    <!--<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -60,11 +49,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
+   
+    <script src="listar.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/crud.js"></script>
+    <!--<script type="text/javascript" src="js/crud.js"></script>-->
 </body>
 
 </html>
