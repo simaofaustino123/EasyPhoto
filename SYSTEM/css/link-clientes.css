@@ -1,7 +1,6 @@
 body{
     /*background-color: black;*/
-    background-position: center;
-   
+    background-position: center;   
 }
 
 #page{
@@ -14,15 +13,7 @@ body{
 fieldset{
     background-color: white;
     height: 100px;
-    
-    
 }
-
-h3{
-   
-}
-
-
 
 #logo{
     width: 100%;
