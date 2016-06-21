@@ -57,7 +57,7 @@ $(function () {
     function Deletar() {
         tableClientes.splice(selectedIndex, 1);
         localStorage.setItem("tableClientes", JSON.stringify(tableClientes));
-        alert ("Cliente Deletado");
+       
     }
     
     function Listar() {
